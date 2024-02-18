@@ -1,0 +1,18 @@
+class fibo_series{
+
+    static int fib(int n) {
+        if (i <= 1)           // Base Case
+            return i;
+ 
+            return fib(i - 1) + fib(i - 2);       // Recursive call
+    }
+ 
+    public static void main(String[ ] args){
+        Scanner sc = new Scanner(System.in);
+        int num  = sc.nextInt( );
+ 
+        for (int  x = 0;  x < num;  x++) {
+            System.out.print(fib(x) + " ");
+        }
+    }
+}
